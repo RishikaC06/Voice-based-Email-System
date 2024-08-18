@@ -29,5 +29,5 @@ This project uses Whisper model for speech to text conversion and GTTS library t
    * __Search Email:__ Users can search emails by criteria like sender or subject, with results read aloud or skipped as desired.
    * __Retrieve Latest Emails:__ Users can fetch and summarize the latest emails from selected folders. Summaries are created using NLTK python library.
 
-## Acknowledgements
+## Acknowledgements/Credits
 [Ronik22](https://github.com/Ronik22)
