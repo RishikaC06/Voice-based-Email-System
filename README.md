@@ -29,5 +29,32 @@ This project uses Whisper model for speech to text conversion and GTTS library t
    * __Search Email:__ Users can search emails by criteria like sender or subject, with results read aloud or skipped as desired.
    * __Retrieve Latest Emails:__ Users can fetch and summarize the latest emails from selected folders. Summaries are created using NLTK python library.
 
+## Steps for installation
+1. Install the necessary packages
+```
+pip install playsound
+pip install PyAudio
+pip install gTTS
+pip install nltk
+```
+
+2. Installing whisper
+   * __Installing ffmpeg:__ To install whisper you will first need to download and install ffmpeg. You can follow this tutorial for its installation [Install ffmpeg](https://youtu.be/DMEP82yrs5g?si=vYTfZ8cbj2KxGbQ9).
+   * __Install whisper:__
+     ```pip install -U openai-whisper```
+     You can also refer to this whisper installation guide [Whisper reference](https://github.com/openai/whisper#setup)
+
+3. Installing flask for frontend
+   Use the file app.py
+   ```
+   pip install Flask
+   ```
+
+ 5. To run the app use
+    ```
+    python -u "app.py"
+    ```
+    Open [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the app.
+    
 ## Acknowledgements
 [Ronik22](https://github.com/Ronik22)
